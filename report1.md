@@ -1,3 +1,5 @@
+
+
 # Report 1 : Population Growth Problems
 ### Author: Cathaya Liu ,   [*WHU*](http://physics.whu.edu.cn/)
 
@@ -57,3 +59,15 @@ plt.legend(handles = [P1], labels = [], loc = 'best')
 plt.show()
 ```
 ## 四、程序的运行结果
+### I、算法的试运行
+首先我们尝试用该算法实现课本中的例子，即辐射衰变，以此检验算法的可靠性。
+
+运行结果如下。
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/Figure_1.png)
+
+可以看到，该算法生成的图像和课本中所给的例子一致。因此初步判定该算法是有效的。
+### II、常微分方程的解析解
+当b=0时，该常微分方程的解析解可表述为：
+
+![](http://latex.codecogs.com/gif.latex?N(t)=N(0)e^{at})
+### III、b=0情形下解析解和数值解的对照
