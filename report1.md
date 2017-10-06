@@ -6,9 +6,9 @@
 ## 一、问题描述
 Population growth problems often give rise to rate equations that are first-order. For example, the equation 
 
-dN\dt=aN-bN^2,
+![](http://latex.codecogs.com/gif.latex?\frac{dN}{dt}=aN-bN^2)
 
-might describe how the number of individuals in a population, N, varies with time. Here the first term aN corresponds to the brith of new members, while the second term-bN^2 corresponds to deaths. The death term is proportional to N^2 to allow for the fact that food will become harder to find when the population N become large. Begin by solving the equation with b=0 using the Euler method, and compare your numerical result result with the exact solution. Then solve the equation with nonzero values `$b$` . Give an intuitive explanation of you results. Interesting values of a and b depend on the initial population `$N$` . For small `$N(0)$` , `$a=10$` and `$b=3$` is a good choice, while for `$N(0)=1000$` a good choice is `$a=10$` and `$b=0.01$` . 
+might describe how the number of individuals in a population, N, varies with time. Here the first term aN corresponds to the brith of new members, while the second term-bN^2 corresponds to deaths. The death term is proportional to N^2 to allow for the fact that food will become harder to find when the population N become large. Begin by solving the equation with b=0 using the Euler method, and compare your numerical result result with the exact solution. Then solve the equation with nonzero values b . Give an intuitive explanation of you results. Interesting values of a and b depend on the initial population N . For small N(0) , a=10 and b=3 is a good choice, while for N(0)=1000 a good choice is a=10 and b=0.01 . 
 
 ## 二、问题分析
 我们将分四个部分讨论这个问题。
@@ -19,13 +19,13 @@ might describe how the number of individuals in a population, N, varies with tim
 
 ## 三、算法设计及其Python实现
 ### I、程序分析
-我们需要四个变量来描述这个数学模型，它们分别是：时间 `$t$` ，时间间隔（步长） `$\Delta t$` ，当前人口数 `$N(t)$` 和初始人口数 `$N(0)$` 。
+我们需要四个变量来描述这个数学模型，它们分别是：时间 t ，时间间隔（步长） Delta t ，当前人口数 N(t) 和初始人口数 N(0) 。
 
-* 首先我们建立两个长度相同的独立一维数组，分别用来存放时间 `$t$` 和当前人口数 `$N(t)$` ，其元素一一对应。
+* 首先我们建立两个长度相同的独立一维数组，分别用来存放时间 t 和当前人口数 N(t) ，其元素一一对应。
 
-* 对于时间 `$t$` 的数组，令其 `$t(0)=0$` , t(n)=n\Delta t 。
+* 对于时间 t 的数组，令其 t(0)=0 , t(n)=n\Delta t 。
 
-* 对于人口数 N(t) 的数组，令其 N(0) 为初始人口数， N(t)=N(t-1)\pm f(N(t-1))*\Delta t ，其中 `$f$` 取决于题目本身的变化。
+* 对于人口数 N(t) 的数组，令其 N(0) 为初始人口数， N(t)= N(t-1)±f(N(t-1))\Delta t ，其中 f 取决于题目本身的变化。
 
 * 循环生成时间 t 和当前人口数 N(t) 的数组元素。
 * 画出 t-N 图。
