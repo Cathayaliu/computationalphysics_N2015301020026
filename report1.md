@@ -84,4 +84,50 @@ plt.show()
 可见，为了使模拟尽可能贴近真实情况，我们应该选取短步长，并模拟较少的点。
 ### IV、b≠0情形下的一些模拟
 在b=0的情况下，不难看出这是标准的指数增长。但是由于实际情况下（诸如死亡、疾病、食物短缺）人口不可能按照这个模型增长，我们需要修改模型，引入一个衰减量。接下来我们将展示在不同情形下的模拟结果（并适度放飞自我）。
-* 
+
+* 1、少量初始人口，短时间
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/fg1-4.png)
+可以看到这是一个类似于指数衰减的图像，即N^2项发挥主要作用。为了深入了解，我们看一下把时间延长一些会发生什么。
+* 2、少量初始人口，长时间
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/fg1-5.png)
+有趣的事情开始出现了，N项和N^2项似乎达到了一个平衡（与黑恶势力达成共识.jpg）
+* 3、放飞自我
+
+题目中所说的【在初始人口足够少的时候，用b=3较好】。这个"足够小"大约是什么范围呢？
+首先我们把N（0）设定为50，看看会发生什么。
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/fg1-6.png)
+
+emmmmm……笑容完全消失……这什么鬼！
+
+为什么会这样呢……在N（0）为10的时候明明很和谐的。N（0）等于50就boom了……
+
+我们选取一个中间值来跑一下：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/fg1-7.png)
+
+可以看到已经发生了奇妙的变化。接下来我们再略微增加一下初始值……然后：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/fg1-8.png)
+Boooooom!
+
+由此可以推测，之所以会这个样子是因为过大的b值引起了人口值急剧的下滑，而我们的模型允许【负人口】和【非整数人口】……然后部分数据超出了Matplotlib的绘制范围，GG。
+* 4、大量初始人口，短时间
+
+当我们将N(0)设定为500，并按书上所说把b值调为0.01后，我们会得到这个：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/fg1-9.png)
+
+看起来类似一条直线……把时间延长一些会如何呢？
+
+* 5、大量初始人口，长时间
+
+将时间延长十倍后我们得到了这个：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/fg1-10.png)
+与黑恶势力再次达成共识.jpg
+
+等等这个形状有点熟悉……这不是很像生物课本里种群增长的逻辑斯谛曲线吗！
+
+可喜可贺，终于有一个比较正常的结果了。
+## 五、未完待续
+模拟人口增长是一件很好玩的事情……尤其是发现竟然能达到平衡的时候。这需要对N（0）、a和b的精确选择。接下来有时间大概会模拟一下不同a和b对模型的影响……以上！
+
+
