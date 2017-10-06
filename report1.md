@@ -1,5 +1,6 @@
 
 
+
 # Report 1 : Population Growth Problems
 ### Author: Cathaya Liu ,   [*WHU*](http://physics.whu.edu.cn/)
 
@@ -10,7 +11,7 @@ Population growth problems often give rise to rate equations that are first-orde
 
 ![](http://latex.codecogs.com/gif.latex?\frac{dN}{dt}=aN-bN^2)
 
-might describe how the number of individuals in a population, N, varies with time. Here the first term aN corresponds to the brith of new members, while the second term-bN^2 corresponds to deaths. The death term is proportional to N^2 to allow for the fact that food will become harder to find when the population N become large. Begin by solving the equation with b=0 using the Euler method, and compare your numerical result result with the exact solution. Then solve the equation with nonzero values b . Give an intuitive explanation of you results. Interesting values of a and b depend on the initial population N . For small N(0) , a=10 and b=3 is a good choice, while for N(0)=1000 a good choice is a=10 and b=0.01 . 
+might describe how the number of individuals in a population, N, varies with time. Here the first term aN corresponds to the brith of new members, while the second term-bN^2 corresponds to deaths. The death term is proportional to N^2 to allow for the fact that food will become harder to find when the population N become large. Begin by solving the equation with b=0 using the Euler method, and compare your numerical result with the exact solution. Then solve the equation with nonzero values b . Give an intuitive explanation of you results. Interesting values of a and b depend on the initial population N . For small N(0) , a=10 and b=3 is a good choice, while for N(0)=1000 a good choice is a=10 and b=0.01 . 
 
 ## 二、问题分析
 我们将分四个部分讨论这个问题。
@@ -71,3 +72,16 @@ plt.show()
 
 ![](http://latex.codecogs.com/gif.latex?N(t)=N(0)e^{at})
 ### III、b=0情形下解析解和数值解的对照
+我们用两种不同的标记代表数值解和解析解，分别在不同的情形下探讨数值解的吻合程度。在以下模拟中N（0）均取1000.
+
+首先我们来看当Delta t取0.05时的情况：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/fg1-3.png)
+可以看到在步长为0.05时，误差比较大。因此我们缩小步长为0.01，效果如下：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/fg1-1.png)
+上述两幅图都只模拟了10个点。当把模拟长度扩大到100个点时，效果如下：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/fg1-2.png)
+
+可见，为了使模拟尽可能贴近真实情况，我们应该选取短步长，并模拟较少的点。
+### IV、b≠0情形下的一些模拟
+在b=0的情况下，不难看出这是标准的指数增长。但是由于实际情况下（诸如死亡、疾病、食物短缺）人口不可能按照这个模型增长，我们需要修改模型，引入一个衰减量。接下来我们将展示在不同情形下的模拟结果（并适度放飞自我）。
+* 
