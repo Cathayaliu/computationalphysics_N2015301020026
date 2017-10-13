@@ -3,56 +3,60 @@
 
 ***
 
-## 一、问题描述
-Population growth problems often give rise to rate equations that are first-order. For example, the equation 
+## 一、Sorry
+因为电脑出了问题去送修了，在网吧简单写了个沿着抛物线运动的pygame小程序。完整版本的Report将在下周六前提交，请见谅。
 
-![](http://latex.codecogs.com/gif.latex?\frac{dN}{dt}=aN-bN^2)
-
-might describe how the number of individuals in a population, N, varies with time. Here the first term aN corresponds to the brith of new members, while the second term-bN^2 corresponds to deaths. The death term is proportional to N^2 to allow for the fact that food will become harder to find when the population N become large. Begin by solving the equation with b=0 using the Euler method, and compare your numerical result with the exact solution. Then solve the equation with nonzero values b . Give an intuitive explanation of you results. Interesting values of a and b depend on the initial population N . For small N(0) , a=10 and b=3 is a good choice, while for N(0)=1000 a good choice is a=10 and b=0.01 . 
-
-## 二、问题分析
-我们将分四个部分讨论这个问题。
-* 求出该常微分方程在b=0情况下的解析解。
-* 用Euler法求出该常微分方程在b=0情况下的数值解，并与其解析解进行比较。
-* 用Euler法求出该常微分方程在b≠0情况下的数值解，尝试多个b的值并展示结果。
-* 定性地解释结果。
-
-## 三、算法设计及其Python实现
-### I、程序分析
-我们需要四个变量来描述这个数学模型，它们分别是：时间 t ，时间间隔（步长） Delta t ，当前人口数 N(t) 和初始人口数 N(0) 。
-
-* 首先我们建立两个长度相同的独立一维数组，分别用来存放时间 t 和当前人口数 N(t) ，其元素一一对应。
-
-* 对于时间 t 的数组，令其 t(0)=0 , t(n)=n\Delta t 。
-
-* 对于人口数 N(t) 的数组，令其 N(0) 为初始人口数， N(t)= N(t-1)±f(N(t-1))\Delta t ，其中 f 取决于题目本身的变化。
-
-* 循环生成时间 t 和当前人口数 N(t) 的数组元素。
-* 画出 t-N 图。
-### II、算法的Python实现
+## 二、程序的Python实现
 ```
-#引入matplotlib库
+#导入各模组
+import pygame,sys,math
 
-import matplotlib.pyplot as plt
+pygame.init()
 
-#定义相关变量
+#设定帧率
+FPS=10
+fpsClock=pygame.time.Clock()
 
-N=[0 for x in range(0,'需要的长度')]
-t=[0 for x in range(0,'需要的长度')]
-N[0]='初始人口'
-T='时间间隔'
-t[0]=0
+#绘制显示窗口
+DISPLAYS=pygame.display.set_mode((1440,900))
+pygame.display.set_caption("MY ANM")
 
-for i in range(1,'需要的长度'):
-    N[i]=N[i-1]+f(N[i-1])*T
-    t[i]=i*T
+#定义各个变量
+WHITE=(255,255,255)
+canon=pygame.image.load('canon.png')
+bgm=pygame.image.load('bgm.jpg')
+G=10 #加速度
+angle=math.pi/4 #发射角
+canonv0=110 #发射速度
+canonvx=int(canonv0*math.cos(angle)) #x方向速度
+canonvy=int(canonv0*math.sin(angle)) #y方向速度
+canonx=10 #初始位置
+canony=868 #初始位置
+direction='up'
 
-#绘图的相关设置
+#游戏主循环
+while True:
+    DISPLAYS.fill(WHITE)
+    if direction=='up':
+        canonx=canonx+canonvx
+        canony=canony-canonvy
+        canonvx=canonvx
+        canonvy=canonvy-10
 
-plt.title('')
-plt.xlabel('t')
-plt.ylabel('n')
-P1=plt.plot(t,N)
-plt.legend(handles = [P1], labels = [], loc = 'best')
-plt.show()
+#绘制动画和背景图
+    DISPLAYS.blit(bgm,(0,0))
+    DISPLAYS.blit(canon,(canonx,canony))
+    
+#退出程序
+    for event in pygame.event.get():
+        if event.type==pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+     
+#输出动画至窗口     
+    pygame.display.update()
+    fpsClock.tick(FPS)
 ```
+## 三、一些说明
+运行时必须将canon.png和bgm.jpg放在与python程序相同的文件夹下，否则会报错。
+所有图片资源来自淘宝购买素材库，仅用作学习，侵删。
