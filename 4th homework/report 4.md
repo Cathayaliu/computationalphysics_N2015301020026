@@ -1,5 +1,7 @@
 # Report 4: Throwing A Baseball
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/4th%20homework/bangqiu.png)
+
+### WHU Cathaya Liu 2015301020026
 ***
 ## 摘要
 在学习过计算物理的2.4节后，我决定尝试这做这样一件事情：模拟一个任意初始速度的球，并查看它在Y和Z两个方向上的轨迹。在这个模拟中，我希望引入尽可能多的自定义参数，以便于对比各种参数对轨迹的不同影响。现在的可变参数有：初始速度，发射角度，空气阻力相关参数，球的自旋速度，以及模拟的时间长度。在接下来的完善中，我将为这个模拟添加气压随高度变化带来的影响，以及球的速度变化对空气阻力造成的影响。
@@ -160,6 +162,8 @@ if __name__ == "__main__":
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/4th%20homework/tst5.png)
 
 嗯，相当绚烂的效果，让人联想到彩虹。
+
+因为网费快没了所以今天就玩到这里……再有时间的话试着考虑下气压变化之类的试试看，各种变化下的对比也应该很不错~再见！
 
 
 
