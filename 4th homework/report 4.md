@@ -45,17 +45,17 @@
 
 由Eluer法的相关知识，立刻得到：
 
-* ![](http://latex.codecogs.com/gif.latex?\frac{dx}{dt}=v_x)
+* ![](http://latex.codecogs.com/gif.latex?x_i=x_{i-1}+v_x\Delta{T})
 
-* ![](http://latex.codecogs.com/gif.latex?\frac{dy}{dt}=v_y)
+* ![](http://latex.codecogs.com/gif.latex?y_i=y_{i-1}+v_y\Delta{T})
 
-* ![](http://latex.codecogs.com/gif.latex?\frac{dz}{dt}=v_z)
+* ![](http://latex.codecogs.com/gif.latex?z_i=z_{i-1}+v_z\Delta{T})
 
-* ![](http://latex.codecogs.com/gif.latex?\frac{dv_x}{dt}=-\frac{B_2}{m}vv_x)
+* ![](http://latex.codecogs.com/gif.latex?v_{x,i}=v_{x,i-1}-\frac{B_2}{m}v_{i-1}v_{x,i-1}\Delta{T})
 
-* ![](http://latex.codecogs.com/gif.latex?\frac{dv_y}{dt}=-g)
+* ![](http://latex.codecogs.com/gif.latex?v_{y,i}=v_{y,i-1}-g\Delta{T})
 
-* ![](http://latex.codecogs.com/gif.latex?\frac{dv_z}{dt}=-\frac{S_{0}v_{x}\omega}{m})
+* ![](http://latex.codecogs.com/gif.latex?v_{z,i}=v_{z,i-1}-\frac{S_{0}v_{x,i-1}\omega\Delta{T}}{m})
 
 ## 算法及其Python实现
 因为我引入了相当多的自定义参数，如果逐一去改变这些参数并绘图，将会使代码变得非常冗杂，修改相关变量会成为一个噩梦。因此本程序将使用所谓“枪弹分离”的设计。我将自定义一个以所有自定义参数为变量的函数，并在另一个文件里调用这个函数输出图像。这样我们便实现了效率和效果的平衡。
