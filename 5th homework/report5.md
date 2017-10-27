@@ -1,6 +1,8 @@
 # Report: Chaos in the Driven Nonlinear Pendulum
 ### Author: Cathaya Liu *2015301020026*
-
+***
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/last.gif)
+***
 ## 前言
 本周我们学习了计算物理的第三章，对于Chaos这个主题期待已久~因此想尽可能多地改变一下相关参数，看能不能得到一些有趣的结果。这次报告不会针对课后作业的某个具体问题，而是对所有问题都有涉及。比起具体的问题，我更喜欢讨论“泛用”的方法。
 ## 摘要
