@@ -109,8 +109,22 @@ plt.scatter(Chaos.Chaos_Cathaya('相关参数')[1],Chaos.Chaos_Cathaya('相关�
 ## 驱动力、空气阻力因子、绳长对θ的影响
 *除了需要探讨的变量外，我们做如下约定：F=1.2，Ω=2/3，L=9.8，q=0.5,θ初值为0.2。*
 
-* 驱动力带来的影响
+#### 驱动力带来的影响
 
 我们选取一系列的F值，分别作图：
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/dif%20f.png)
 当F为比较小的值时，如我们所料，并没有混沌现象出现。当F等于1时，我们可以注意到图形开始出现明显的扭曲。但是当F足够大时（F=6），系统似乎又具有了某种规律。这是比较令人费解的。
+
+#### 空气阻力因子带来的影响
+
+同样地，我们选取一系列的q值，分别作图：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/dif%20q.png)
+和F的情况相反，当q因子比较小时，系统才具有混沌性。而当q足够大时（q>0.6），系统便失去了混沌性。
+
+#### 绳长带来的影响
+
+课本上把绳长取9.8，使其与重力加速度比值为一，这个取值很耐人寻味。那么，不一样的绳长会带来什么变化呢？
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/dif%20l1.png)
+较短的绳子在我们所给的条件下摆动相当规律，而当L大于5后，情况发生了很大变化。但是，和F很相似，当L足够大时，系统似乎重新变得“规整”了。为了充分表现这一点，我用更长的时间模拟了L=9.8和L=40两种情形：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/dif%20l2.png)
+可以清晰地看出，L=9.8时，增加时间的长度并不会让运动具有某种规律性。而L=40时，在经历了初始的混乱后，系统重新变得“规整”了。
