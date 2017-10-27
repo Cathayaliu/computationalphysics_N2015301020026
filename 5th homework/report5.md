@@ -107,4 +107,10 @@ plt.scatter(Chaos.Chaos_Cathaya('相关参数')[1],Chaos.Chaos_Cathaya('相关�
 可见我们的程序工作的还不错。
 
 ## 驱动力、空气阻力因子、绳长对θ的影响
+*除了需要探讨的变量外，我们做如下约定：F=1.2，Ω=2/3，L=9.8，q=0.5,θ初值为0.2。*
 
+* 驱动力带来的影响
+
+我们选取一系列的F值，分别作图：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/dif%20f.png)
+当F为比较小的值时，如我们所料，并没有混沌现象出现。当F等于1时，我们可以注意到图形开始出现明显的扭曲。但是当F足够大时（F=6），系统似乎又具有了某种规律。这是比较令人费解的。
