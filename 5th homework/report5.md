@@ -151,7 +151,9 @@ plt.scatter(Chaos.Chaos_Cathaya('相关参数')[1],Chaos.Chaos_Cathaya('相关�
 所谓吸引子图，无非就是从上文中提到的θ-ω的关系图里选择一些特殊的点画出来。选择的条件是，在某些特定的时刻，F=0，即ΩD=2nπ。这在数学上很容易实现，但是在计算机模拟时，我们面临两个问题。第一，π是无理数；第二，我们模拟的时间步长是时间段，而非精确的时刻。这也就意味着我们必须取尽量小的步长，来削弱模拟的偏差。在下面的模拟中，我们的默认步长是0.008s。
 
 先按照默认参数画图：
+
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/at0.png)
+
 可以隐约感觉到什么，但是好像也没什么了不起的嘛……
 
 还记得在前一节里，我们仅仅改变了θ的初值0.001，所带来的混乱吗？如过改变θ的初值0.001，吸引子又会如何呢？
@@ -172,11 +174,15 @@ plt.scatter(Chaos.Chaos_Cathaya('相关参数')[1],Chaos.Chaos_Cathaya('相关�
 在讨论这个问题之前，我对θ的初值大幅度改变会不会影响吸引子更有兴趣。
 
 请看下图：
+
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/ac1.png)
+
 答案显而易见，对于θ来说，吸引子是稳定的。
 
 而对于F就不是这样了：
+
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/ac2.png)
+
 此图搭配上面的“驱动力影响”图风味更佳。
 
 可以得到一个直观的认识：混沌系统的吸引子分布较松散，且较复杂。而非混沌系统的吸引子则简单很多。
