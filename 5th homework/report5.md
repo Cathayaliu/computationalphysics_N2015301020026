@@ -169,3 +169,24 @@ plt.scatter(Chaos.Chaos_Cathaya('相关参数')[1],Chaos.Chaos_Cathaya('相关�
 本来还想画一个分叉图……能力有限，只能作罢。
 
 ## 什么会影响吸引子
+在讨论这个问题之前，我对θ的初值大幅度改变会不会影响吸引子更有兴趣。
+
+请看下图：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/ac1.png)
+答案显而易见，对于θ来说，吸引子是稳定的。
+
+而对于F就不是这样了：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/ac2.png)
+此图搭配上面的“驱动力影响”图风味更佳。
+
+可以得到一个直观的认识：混沌系统的吸引子分布较松散，且较复杂。而非混沌系统的吸引子则简单很多。
+
+## 结论
+
+非线性系统在合适的条件下会产生混沌。混沌对初值极度敏感，其随时间的演化不可预知。而混沌系统的吸引子则对初值条件不甚敏感，表现出很好的稳定性。吸引子的研究，是了解混沌本质的钥匙。
+
+## 致谢和吐槽
+* 印刷错误巨坑……P58正负号印反螺旋爆炸。
+* 安利梅拉尼·米歇尔著《Complexity: A Guided Tour》，我的部分想法源于此书。
+* 感谢我的电脑……跑几十遍300000+的循环，辛苦了ORZ
+
