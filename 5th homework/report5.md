@@ -134,3 +134,15 @@ plt.scatter(Chaos.Chaos_Cathaya('相关参数')[1],Chaos.Chaos_Cathaya('相关�
 “一只蝴蝶扇动翅膀，就足以在遥远的地方引发一场暴风雨”。这句充满韵味的描述揭示了混沌系统第二迷人的性质（对初值条件的敏感性），而最迷人之处在于，混沌虽然不可预测，却依然有规律可循（我们会在下面吸引子的部分谈到这个）
 
 那么，如何充分地展示这种敏感性呢？我们将从两个方面入手。
+
+首先，我们将参数全部置于前述的默认值，取Δθ=0.001，将θ和θ+Δθ叠在一张图上：
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/dif%20xita0.png)
+这样虽然比较直观，但并不能让我们对数值大小有比较清晰的认识，前面定义的Chaos.Compare函数大显身手。我们通过调用这个函数，可以直接画出Δθ-t的关系图：
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/dif%20xitac.png)
+数值大小清晰地体现出来了……但我们希望能从中找到某种规律的影子，用对数坐标会不会好一点呢？
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/dif%20xital.png)
+
+比之上图虽然好了一些，但仍然达不到课本上的那种效果，这也是需要改进之处。
+
+## 吸引子与稳定性
