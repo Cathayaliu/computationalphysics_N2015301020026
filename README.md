@@ -16,3 +16,7 @@ My Computational Physics Homework
 [第五次作业地址（Report 3）](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/4th%20homework/report%204.md)
 
 [第六次作业地址（Report 4）](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/report5.md)
+
+[第七次作业地址（Report 5）](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/report.md)
+
+PS：起床晚了所以迟交了两小时……以及需要加固牙套所以下周一的课要请假，请见谅。
