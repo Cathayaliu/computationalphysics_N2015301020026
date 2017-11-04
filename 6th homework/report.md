@@ -73,6 +73,40 @@ Emmmmm……或许这就是混沌吧.jpg
 
 计算后有：δ1=2.113,δ2=15.2727……这和δ ≈4.669差距较大。但是目前绘图的精度只能到这一步了。只能说，一个图的精度啊，不仅需要个人的努力，也要考虑到计算机的性能。
 
+PS：后来用ΔF=0.0001跑了一遍，大约用了一个小时……让我秀一波图ORZ
+
+[矢量EPS文件在这里](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1.eps)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-1.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-2.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-3.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-4.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-5.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-6.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-7.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-8.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-9.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-10.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-11.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-12.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-13.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-14.png)
+
 ## 特别感谢
 陈洋瑶学姐（这个名字是学姐吧）
 
