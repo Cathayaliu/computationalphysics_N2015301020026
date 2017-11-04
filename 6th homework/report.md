@@ -32,3 +32,22 @@ for j in range(0,300):
 
 ## 尝试与对比：The Poincare sections
 为了展示新的取点方式的优越性，我们用新方法和之前的方法画一些Poincare sections，进行对照。
+
+可以看到新方法的效果好很多。
+
+## 绘制分岔图
+接下来我们绘制分岔图，先按照课本上的参数，F从1.35-1.5
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/C223.png)
+
+可以看到比较明显的分岔。
+
+然后出于好奇，我尝试着绘制了更大范围的F，得到了下面的图：
+
+!()[https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/over.png]
+
+Emmmmm……或许这就是混沌吧.jpg
+
+请特别注意这张图上1.26-1.3之间的部分。书上提到，周期的倍增最后通向混沌，而1.26-1.3似乎是……周期倍减，系统由混沌重归秩序。或者看起来有这个意思。
+
+
