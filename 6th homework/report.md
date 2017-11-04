@@ -59,7 +59,13 @@ Emmmmm……或许这就是混沌吧.jpg
 
 ## the Feigenbaum parameter
 
-通过对上图进行局部放大并记录分岔点，我得到了如下表格：
+通过对上图进行局部放大:
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/C224.png)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/C225.png)
+
+记录分岔点，得到了如下表格：
 
 |F1|F2|F3|
 |-|-|-|
