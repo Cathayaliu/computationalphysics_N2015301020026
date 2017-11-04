@@ -32,6 +32,13 @@ for j in range(0,300):
 
 ## 尝试与对比：The Poincare sections
 为了展示新的取点方式的优越性，我们用新方法和之前的方法画一些Poincare sections，进行对照。
+* 原方法：
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/5th%20homework/at0.png)
+
+* 新方法
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/KS.png)
 
 可以看到新方法的效果好很多。
 
