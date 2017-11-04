@@ -44,10 +44,17 @@ for j in range(0,300):
 
 然后出于好奇，我尝试着绘制了更大范围的F，得到了下面的图：
 
-!()[https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/over.png]
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/over.png)
 
 Emmmmm……或许这就是混沌吧.jpg
 
 请特别注意这张图上1.26-1.3之间的部分。书上提到，周期的倍增最后通向混沌，而1.26-1.3似乎是……周期倍减，系统由混沌重归秩序。或者看起来有这个意思。
+
+## the Feigenbaum parameter
+
+通过对上图进行局部放大并记录分岔点，我得到了如下表格：
+|F[1]|F[2]|F[3]|F[4]|
+|-|-|-|-|
+|1.424|1.459|1.475|1.477|
 
 
