@@ -87,8 +87,6 @@ PS：后来用ΔF=0.0001跑了一遍，大约用了一个小时……让我秀�
 
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-4.png)
 
-![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-5.png)
-
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-6.png)
 
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/Figure_1-7.png)
