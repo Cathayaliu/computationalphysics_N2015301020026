@@ -40,8 +40,11 @@ for i in range(self.n):
 
 正圆：
 
-![]()
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/7th%20homework/Figure_1-1.png)
 
 椭圆：
 
-![]()
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/7th%20homework/Figure_1-2.png)
+
+## 结论
+可以看出，球在正圆中有一障碍物的情况下，运动轨迹较为杂乱。而在无障碍物的情形下，则非常规则。
