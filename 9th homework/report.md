@@ -1,6 +1,8 @@
 # Report: The Three-body Problem
 ### 2015301020026 Cathayaliu
 ***
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/9675CD87877DB394415C7116253F7162.jpg)
+***
 ## 摘要
 本次模拟的是太阳系中木星、地球和太阳的三体模型。采用了质心坐标系和总动量为0的设定。
 
@@ -117,7 +119,6 @@ def giveloc(me,mj,time):
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-13.png)
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-14.png)
 
-这张图有趣的地方在于，地球先被木星俘获，又被太阳俘获。
 
 ## 结论
 当地球质量和木星质量远小于太阳质量时，可以稳定运动，有闭合轨道。
