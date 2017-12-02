@@ -94,3 +94,15 @@ def giveloc(me,mj,time):
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-2.png)
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-3.png)
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-4.png)
+
+注意到直观来看地球轨道开始越来越粗了……只画地球轨道如下图：
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-5.png)
+
+继续：
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-7.png)
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-6.png)
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-8.png)
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-9.png)
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-10.png)
