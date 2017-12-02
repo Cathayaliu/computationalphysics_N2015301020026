@@ -22,3 +22,5 @@ My Computational Physics Homework
 PS：起床晚了所以迟交了两小时……以及需要加固牙套所以下周一的课要请假，请见谅。
 
 [期中作业](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/%E6%9C%9F%E4%B8%AD%E4%BD%9C%E4%B8%9A.md)
+
+[第九次作业地址（Report 7）]（https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/report.md）
