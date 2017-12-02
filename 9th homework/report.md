@@ -103,6 +103,26 @@ def giveloc(me,mj,time):
 
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-7.png)
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-6.png)
+
+当木星质量变为1000MJ时，有趣的事情开始了：以下分别是0，90，180度夹角的情况
+
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-8.png)
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-9.png)
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-10.png)
+
+可以看出地球有时彻底逃逸，有时被太阳俘获。
+
+接下来开始放飞自我，改变地球质量为100ME和1000ME，得到下图：
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-13.png)
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/Figure_1-14.png)
+
+这张图有趣的地方在于，地球先被木星俘获，又被太阳俘获。
+
+## 结论
+当地球质量和木星质量远小于太阳质量时，可以稳定运动，有闭合轨道。
+
+当木星质量和太阳质量相近时，地球可能被其中之一俘获，也可能逃逸。
+
+当三者质量相近时，根据初始条件不同，可能会有一段时间的混沌现象，但最终逃逸可能性很大。
+
