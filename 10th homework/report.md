@@ -79,6 +79,23 @@ for i in range(0,30):
 
 运算时要注意对边界条件的保护；
 ## 结果陈列
+* #### FIGURE 5.4 form N=1 to N=15
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/Figure_1.png)
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/Figure_1-1.png)
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/Figure_1-2.png)
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/Figure_1-3.png)
+
+* #### FIGURE 5.6 form N=1 to N=15
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/Figure_1-4.png)
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/Figure_1-5.png)
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/Figure_1-6.png)
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/Figure_1-7.png)
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/Figure_1-8.png)
+
+* #### FIGURE 5.3 GIF
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/233.gif)
 
 ## 结论
 
