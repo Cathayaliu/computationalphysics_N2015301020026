@@ -25,4 +25,4 @@ PS：起床晚了所以迟交了两小时……以及需要加固牙套所以下
 
 [第九次作业地址（Report 7）](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/9th%20homework/report.md)
 
-[第十次作业地址（Report 8）]（https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/report.md）
+[第十次作业地址（Report 8）](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/report.md)
