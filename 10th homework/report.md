@@ -1,4 +1,4 @@
-# Report: Some Funny Potentials
+# Report: Some Potentials
 ### Author: Cathaya.Liu 2015301020026
 ***
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/V-TIME.gif)
@@ -98,5 +98,4 @@ for i in range(0,30):
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/233.gif)
 
 ## 结论
-
-## 致谢
+弛豫法可以较好的完成对电场的计算任务，但是这种算法的时间复杂度似乎为O（n^2），这就意味着为了得到足够精确的解，需要付出很多计算资源。这种算法应该还可以进一步优化。
