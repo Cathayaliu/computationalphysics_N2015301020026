@@ -9,12 +9,21 @@
 * #### 1、基本思想
 电势遵循Laplace方程：
 
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/1.gif)
+
 我们把计算区域划分成长、宽、高分别为Δx、Δy、Δz的小方格，在此基础上改写方程，可以得到：
 
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/2.gif)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/3.gif)
 
 然后有：
 
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/4.gif)
+
 对于二维情形，上式应改写为：
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/5.gif)
 
 * #### 2、算法描述
 设定初始条件和边界条件；
@@ -22,6 +31,10 @@
 创建ΔV变量，使之初值为0；
 
 执行循环：
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/6.gif)
+
+![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/7.gif)
 
 返回V[n+1]的值和ΔV的值；
 
@@ -60,6 +73,7 @@ for i in range(0,30):
             K[i][j]=K[i][j]+V[0][i][j]
     V.append(K)
 ---------------------------------------------------------------------------------------------------------------------------------------
+```
 * #### 4、一些注意事项
 使用二维列表储存网格的电势值；
 
